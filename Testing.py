@@ -1,8 +1,10 @@
 import pandas as pd
 
-rayan = pd.Series([10,50,20,30,40])
+a = {"name":['A','B','C','D','E'] }
+
+rayan = pd.DataFrame(a)
 
 rayan.index = index = ['A' , 'B' , 'C' , 'D' , 'E']
 
-print(rayan.describe())
+print(rayan) 
 
