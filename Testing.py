@@ -11,5 +11,5 @@ rayan = pd.DataFrame(a)
 
 # rayan.index = index = ['A' , 'B' , 'C' , 'D' , 'E']
 
-print(rayan.iloc[0:2]) 
+print(rayan[rayan["Age"]>20]) 
 
