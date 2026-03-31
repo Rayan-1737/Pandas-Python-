@@ -11,5 +11,5 @@ rayan = pd.DataFrame(a)
 
 # rayan.index = index = ['A' , 'B' , 'C' , 'D' , 'E']
 
-print(rayan.columns) 
+print(rayan['A']) 
 
