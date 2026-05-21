@@ -287,3 +287,71 @@ print(s.std())
 
 
 
+
+
+# Updating Values:- 
+
+
+# Single Value
+s[0] = 100
+
+
+# Multiple Values
+s[s > 20] = 999
+
+
+
+
+
+
+
+# Missing Values in Series:- 
+
+# Missing values are represented using NaN.
+
+import numpy as np
+
+s = pd.Series([1, 2, np.nan, 4])
+
+print(s)
+
+# Output:
+
+# 0    1.0
+# 1    2.0
+# 2    NaN
+# 3    4.0
+# dtype: float64
+
+
+
+
+
+
+
+
+
+
+# Handling Missing Values
+
+# Check Missing Values
+print(s.isnull())
+
+# or
+
+print(s.isna())
+
+
+# Remove Missing Values
+print(s.dropna())
+
+
+
+# Fill Missing Values
+print(s.fillna(0))
+
+
+
+
+
+
