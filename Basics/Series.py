@@ -66,3 +66,59 @@ print(s)
 
 
 
+
+
+
+# Accessing Data in Series :- 
+
+
+
+
+# A) By Index Position:- 
+
+
+s = pd.Series([10, 20, 30])
+
+print(s[0])
+
+# Output:
+
+# 10
+
+
+
+
+# B) By Label
+
+
+s = pd.Series([10, 20, 30], index=['a', 'b', 'c'])
+
+print(s['b'])
+
+# Output:
+
+# 20
+
+
+
+
+
+# C) Multiple Values
+
+
+print(s[['a', 'c']])
+
+# Output:
+
+# a    10
+# c    30
+
+
+
+
+
+
+
+
+
+
