@@ -2,13 +2,17 @@ import pandas as pd
 
 a = [1, 2, 3, 4, 5]
 
-b = pd.Series(a)
+b = pd.Series(a, index=['a', 'b', 'c', 'd', 'e']) # Giving Custom Index 
 
 print(b)
 
 
 
+
+
 # Creating Series:- 
+
+
 
 
 # A) From a List:- 
@@ -28,6 +32,33 @@ print(s)
 import pandas as pd
 
 s = pd.Series([10, 20, 30], index=['a', 'b', 'c'])
+
+print(s)
+
+
+
+
+# C) From Dictionary
+
+
+data = {
+    'Math': 90,
+    'Science': 85,
+    'English': 88
+}
+
+s = pd.Series(data)
+
+print(s)
+
+
+
+
+
+# D) Using Scalar Value (Single Value for all 3 values)
+
+
+s = pd.Series(100, index=['a', 'b', 'c'])
 
 print(s)
 
