@@ -1,12 +1,13 @@
 import pandas as pd 
 
-# a = pd.Series([1 , 2 , 3 , 4 , 5])
+data = {
 
-# print(a)
+    "Rayan" : "Hello World",
+    "Rawat" : "Wow Rayan"
 
-a = [1 , 2 , 3 , 4 , 5]
+}
 
-b = pd.Series(a)
+a = pd.Series(data)
 
-print(b)
+print(a)
 
