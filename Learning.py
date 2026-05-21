@@ -11,3 +11,4 @@ df = pd.DataFrame(data)
 print(df)
 
 
+df.to_csv("Demo.csv" , index = False)
