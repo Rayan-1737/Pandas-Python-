@@ -1,13 +1,5 @@
 import pandas as pd 
 
-data = {
+s = pd.Series([10, 20, 30])
 
-    "Rayan" : "Hello World",
-    "Rawat" : "Wow Rayan"
-
-}
-
-a = pd.Series(data)
-
-print(a)
-
+print(s[0:3])
