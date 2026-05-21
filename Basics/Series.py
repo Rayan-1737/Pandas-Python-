@@ -185,3 +185,105 @@ print(s.size)
 
 
 
+
+
+
+
+
+# Series Data Types:- 
+
+
+
+# Integer
+
+pd.Series([1, 2, 3])
+
+
+# Float
+
+pd.Series([1.5, 2.5, 3.5])
+
+
+# String
+
+pd.Series(["A", "B", "C"])
+
+
+# Boolean
+
+pd.Series([True, False, True])
+
+
+# Mixed Type
+
+pd.Series([1, "A", True])
+# But mixed types are usually slower.
+
+
+
+
+
+
+
+
+
+
+# Mathematical Operations :- 
+
+
+# Addition
+
+s = pd.Series([1, 2, 3])
+
+print(s + 10)
+
+# Output:
+
+# 0    11
+# 1    12
+# 2    13
+# dtype: int64
+
+
+
+# Multiplication
+
+# print(s * 2)
+
+
+
+# Power
+
+# print(s ** 2)
+
+
+
+
+
+
+
+
+
+# Series with NumPy-Like Operations:-
+
+
+# Sum
+print(s.sum())
+
+# Mean
+print(s.mean())
+
+# Max
+print(s.max())
+
+# Min
+print(s.min())
+
+# Standard Deviation
+print(s.std())
+
+
+
+
+
+
