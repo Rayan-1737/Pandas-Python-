@@ -66,9 +66,6 @@ print(s)
 
 
 
-
-
-
 # Accessing Data in Series :- 
 
 
@@ -102,7 +99,6 @@ print(s['b'])
 
 
 
-
 # C) Multiple Values
 
 
@@ -118,6 +114,42 @@ print(s[['a', 'c']])
 
 
 
+
+
+
+# Important Attributes of Series :- 
+
+
+
+# A) .index 
+
+
+print(s.index)
+
+# Gives indexes.
+
+
+
+
+
+
+# B) .values 
+
+
+print(s.values)
+
+# Gives NumPy array of values.
+
+
+
+
+
+# C) .dtype
+
+
+print(s.dtype)
+
+# Shows data type.
 
 
 
