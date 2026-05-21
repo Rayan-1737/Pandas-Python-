@@ -462,3 +462,21 @@ s2 = s.copy()
 
 
 
+
+
+
+
+# Indexing Methods:- 
+
+
+# A) loc[] → label-based
+s.loc['a']
+
+
+# B) iloc[] → position-based
+s.iloc[0]
+
+
+
+
+
