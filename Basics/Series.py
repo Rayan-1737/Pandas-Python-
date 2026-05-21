@@ -355,3 +355,110 @@ print(s.fillna(0))
 
 
 
+# Important Methods in Series
+
+
+# A) head()
+
+# Shows first rows.
+
+s.head()
+
+
+# B) tail()
+
+# Shows last rows.
+
+s.tail()
+
+
+# C) describe()
+
+# Gives statistics.
+
+s.describe()
+
+# Output includes:
+
+# count
+# mean
+# std
+# min
+# max
+
+
+# D) unique()
+
+# Unique values.
+
+s.unique()
+
+
+
+# E) nunique()
+
+# Count unique values.
+
+s.nunique()
+
+
+
+# F) value_counts()
+
+# Frequency count.
+
+s.value_counts()
+
+# Very useful.
+
+# Example:
+
+s = pd.Series(['A', 'B', 'A', 'C', 'A'])
+
+print(s.value_counts())
+
+# Output:
+
+# A    3
+# B    1
+# C    1
+
+
+
+
+# G) sort_values()
+
+# Sort by values.
+
+s.sort_values()
+
+
+
+
+# H) sort_index()
+
+# Sort by index.
+
+s.sort_index()
+
+
+
+
+# I) astype()
+
+# Change datatype.
+
+s.astype(float)
+
+
+
+# J) copy()
+
+# Creates copy.
+
+s2 = s.copy()
+
+
+
+
+
