@@ -126,7 +126,7 @@ print(s[['a', 'c']])
 
 print(s.index)
 
-# Gives indexes.
+# Gives indexes , .index returns the labels (row names) of the Series.
 
 
 
@@ -138,8 +138,7 @@ print(s.index)
 
 print(s.values)
 
-# Gives NumPy array of values.
-
+# Returns only the data values as a NumPy array. It removes indexes and keeps raw data.
 
 
 
@@ -149,7 +148,39 @@ print(s.values)
 
 print(s.dtype)
 
-# Shows data type.
+# Shows the data type of the Series values
+
+
+
+
+
+# D) .shape
+
+
+print(s.shape)
+
+# Output:-  (3,)
+
+# Returns the dimensions of the Series.
+
+# A Series is 1-dimensional.
+
+# (3,) means:
+
+# 3 elements
+# 1 dimension
+
+
+
+
+
+# E) .size
+
+print(s.size)
+
+# Output:-  3
+
+# Returns total number of elements.
 
 
 
