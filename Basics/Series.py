@@ -161,7 +161,7 @@ print(s.shape)
 
 # Output:-  (3,)
 
-# Returns the dimensions of the Series.
+# Returns the dimensions of the Series. Returns the number of rows and columns  ex:-  (3 , 2) means 3 rows and 2 cloumns 
 
 # A Series is 1-dimensional.
 
