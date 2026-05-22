@@ -1,7 +1,16 @@
 import pandas as pd 
 
-a = pd.read_csv("CryptocurrencyData.csv") 
+data = {
+    'Name': ['Rahul', 'Amit', 'Neha'],
+    'Age': [20, 21, 19],
+    'Marks': [85, 90, 95]
+}
 
-print(a.info())
+df = pd.DataFrame(data)
+
+print(df["Name"],["Age"])
+
+
+
 
 
