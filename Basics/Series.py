@@ -365,11 +365,15 @@ print(s.fillna(0))
 s.head()
 
 
+
+
 # B) tail()
 
 # Shows last rows.
 
 s.tail()
+
+
 
 
 # C) describe()
@@ -387,6 +391,8 @@ s.describe()
 # max
 
 
+
+
 # D) unique()
 
 # Unique values.
@@ -395,11 +401,13 @@ s.unique()
 
 
 
+
 # E) nunique()
 
 # Count unique values.
 
 s.nunique()
+
 
 
 
@@ -426,11 +434,13 @@ print(s.value_counts())
 
 
 
+
 # G) sort_values()
 
 # Sort by values.
 
 s.sort_values()
+
 
 
 
@@ -444,11 +454,13 @@ s.sort_index()
 
 
 
+
 # I) astype()
 
 # Change datatype.
 
 s.astype(float)
+
 
 
 
@@ -460,6 +472,22 @@ s2 = s.copy()
 
 
 
+
+
+# A) .info()
+
+# Gives summary information about the Series.
+
+s.info()
+
+# Output includes:
+
+# class type
+# total entries
+# index range
+# non-null values count
+# data type
+# memory usage
 
 
 
