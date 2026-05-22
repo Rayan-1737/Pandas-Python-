@@ -1,6 +1,7 @@
 import pandas as pd 
 
-s = pd.Series([10, 20, 30], index = ['a' , 'b' , 'c'])
+a = pd.read_csv("CryptocurrencyData.csv") 
 
-print(s[['a' , 'b']])
+print(a.head(2))
+
 
