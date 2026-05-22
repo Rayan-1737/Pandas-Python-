@@ -2,6 +2,8 @@
 # PANDAS DATAFRAME COMPLETE GUIDE
 # ================================
 
+import pandas as pd
+
 
 # =========================================================
 # WHAT IS A DATAFRAME?
