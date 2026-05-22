@@ -8,7 +8,9 @@ data = {
 
 df = pd.DataFrame(data)
 
-print(df["Name"],["Age"])
+b = df[df["Marks"] > 90]
+
+print(b)
 
 
 
